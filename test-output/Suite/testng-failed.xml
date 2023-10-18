@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" parallel="classes" name="Test(failed)" verbose="5">
+    <classes>
+      <class name="testcase.TC_002">
+        <methods>
+          <include name="stopReport"/>
+          <include name="setUpClass"/>
+          <include name="preCondition"/>
+          <include name="startReport"/>
+          <include name="tearDownClass"/>
+          <include name="CreateLead"/>
+          <include name="testDetails"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testcase.TC_002 -->
+      <class name="testcase.TC_001">
+        <methods>
+          <include name="stopReport"/>
+          <include name="loginData"/>
+          <include name="setUpClass"/>
+          <include name="preCondition"/>
+          <include name="startReport"/>
+          <include name="tearDownClass"/>
+          <include name="setValues"/>
+          <include name="testDetails"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testcase.TC_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
